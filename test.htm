@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Transparent Gif test</title>
+		<style>
+		img {
+			width:20%;
+			height:auto;
+			background-color:blue;
+			display:inline-block;
+			margin:0 1% 1% 0;
+		}
+		body {
+			font-size:0;
+		}
+		</style>
+	</head>
+	<body>
+		<span style="background-color:blue"></span>
+		<span style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		<span data-img="200,200" style="background-color:blue"></span>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="./jquery-transparent-gif-0.0.js"></script>
+		<script>
+		$('[data-img]').transparentGif({ width: 200 , height: 200 });
+		</script>
+	</body>
+</html>
