@@ -1,7 +1,7 @@
 #jquery-transparent-gif
 
 
-Specify dimensions for a transparent GIF and replace selected element OR just get the dataUri.
+Creates transparent GIF with specified dimensions and create an img element to replace the selection, using dataUri technique. Image returned is set with actual dimensions within the dataUri according to spec. This allows you to use responsive sites with background images (cover or contain) that scale automatically to the proper proportions if width=100% height=auto styled on the image element.
 
 
 Replaces all span occurances with transparent image of given dimension
