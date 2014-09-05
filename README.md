@@ -1,4 +1,4 @@
-#jquery transparent gif with native dataUri dimensions
+#jquery transparent GIF
 
 
 Creates transparent GIF with specified dimensions and does replaceWith on selection with an img element. Uses dataUri technique. Image returned is set with actual dimensions within the dataUri according to spec. This allows you to use responsive sites with background images (cover or contain) that scale automatically to the proper proportions if width=100% height=auto styled on the image element. Performs well on large set of images as it uses memoization technique.
